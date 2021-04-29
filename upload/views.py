@@ -23,4 +23,5 @@ def teacher_view(request):
         'object_list':queryset,
       
     }
+    
     return render(request,'upload/view.html',context)
